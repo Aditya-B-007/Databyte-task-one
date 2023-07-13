@@ -1,7 +1,7 @@
 #implementation using tensorflow only
 import pandas as pd    #this is for data analysis and data exploration
 import numpy as np     #this is for linear algebra and data manipulation
-import tensorflow as tf
+import tensorflow as tf    #this is for numerical computation and building machine learning models.
 from sklearn.preprocessing import StandardScaler
 
 # Load the training dataset from Excel file
@@ -49,7 +49,7 @@ print('Mean Squared Error:', loss)
 #implementation using pytroch only
 import pandas as pd
 import numpy as np
-import torch
+import torch   #Another library for machine and deep learning. Very efficient if you want to build neural networks.
 import torch.nn as nn
 import torch.optim as optim
 from sklearn.preprocessing import StandardScaler
